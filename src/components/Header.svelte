@@ -1,20 +1,23 @@
+<script>
+  import logo from "../assets/logo.svg"
+</script>
+
 <header>
   <h1>
-    <img src="/img/logo.svg" alt="Poll Ninja Logo" />
+    <img src={logo} alt="Poll Ninja Logo" />
   </h1>
 </header>
 
 <style>
-    header {
-        background-color: #f7f7f7;
-        padding: 20px;
-    }
+  header {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
 
-    h1 {
-        text-align: center;
-    }
-    img {
-        max-width: 180px;
-    }
-
+  h1 {
+    text-align: center;
+  }
+  img {
+    max-width: 180px;
+  }
 </style>

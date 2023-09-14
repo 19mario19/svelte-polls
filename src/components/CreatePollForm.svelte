@@ -126,7 +126,7 @@
   }
 
   form {
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 1rem;
@@ -158,4 +158,11 @@
 
     opacity: 0.78;
   }
+
+ @media only screen and (max-width: 600px) {
+  form {
+    width: 80%;
+  }
+}
+
 </style>
